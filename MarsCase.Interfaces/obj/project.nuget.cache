@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DDi4emJc/puCj8bL1sSWTa2QrguJs5vV9iYG6TLF2ZM5wNaUYiXq+a8eX/eNPojAAB7ncaxMmPzjT1xTuxSuwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\merolcay\\source\\repos\\HepsiBurada-MarsCase\\MarsCase.Interfaces\\MarsCase.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

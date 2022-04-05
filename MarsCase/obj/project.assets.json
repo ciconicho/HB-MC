@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MarsCase.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MarsCase.Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MarsCase.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MarsCase.Contract.dll": {}
+        }
+      },
+      "MarsCase.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MarsCase.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MarsCase.Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarsCase.Contract/1.0.0": {
+      "type": "project",
+      "path": "../MarsCase.Contract/MarsCase.Contract.csproj",
+      "msbuildProject": "../MarsCase.Contract/MarsCase.Contract.csproj"
+    },
+    "MarsCase.Utils/1.0.0": {
+      "type": "project",
+      "path": "../MarsCase.Utils/MarsCase.Utils.csproj",
+      "msbuildProject": "../MarsCase.Utils/MarsCase.Utils.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MarsCase.Contract >= 1.0.0",
+      "MarsCase.Utils >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\merolcay\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\merolcay\\source\\repos\\HepsiBurada-MarsCase\\MarsCase\\MarsCase.csproj",
+      "projectName": "MarsCase",
+      "projectPath": "C:\\Users\\merolcay\\source\\repos\\HepsiBurada-MarsCase\\MarsCase\\MarsCase.csproj",
+      "packagesPath": "C:\\Users\\merolcay\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\merolcay\\source\\repos\\HepsiBurada-MarsCase\\MarsCase\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\merolcay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.51.90/v3/index.json": {},
+        "http://ftateamcity.innova.com.tr:82/api/v2/": {},
+        "https://172.16.46.42:90/nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\merolcay\\source\\repos\\HepsiBurada-MarsCase\\MarsCase.Contract\\MarsCase.Contract.csproj": {
+              "projectPath": "C:\\Users\\merolcay\\source\\repos\\HepsiBurada-MarsCase\\MarsCase.Contract\\MarsCase.Contract.csproj"
+            },
+            "C:\\Users\\merolcay\\source\\repos\\HepsiBurada-MarsCase\\MarsCase.Utils\\MarsCase.Utils.csproj": {
+              "projectPath": "C:\\Users\\merolcay\\source\\repos\\HepsiBurada-MarsCase\\MarsCase.Utils\\MarsCase.Utils.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.417\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

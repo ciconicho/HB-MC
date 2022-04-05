@@ -1,0 +1,3 @@
+C:\Users\merolcay\source\repos\HepsiBurada-MarsCase\MarsCase.Interfaces\obj\Debug\netstandard2.0\MarsCase.Interfaces.AssemblyInfoInputs.cache
+C:\Users\merolcay\source\repos\HepsiBurada-MarsCase\MarsCase.Interfaces\obj\Debug\netstandard2.0\MarsCase.Interfaces.AssemblyInfo.cs
+C:\Users\merolcay\source\repos\HepsiBurada-MarsCase\MarsCase.Interfaces\obj\Debug\netstandard2.0\MarsCase.Interfaces.csproj.CoreCompileInputs.cache
